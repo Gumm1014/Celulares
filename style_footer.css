@@ -1,0 +1,44 @@
+footer {
+    
+    background-color: rgb(58, 81, 122); /* Fondo azul oscuro */
+    padding: 20px; /* Espaciado interno */
+    color: rgb(223, 223, 223);
+
+}
+footer p{
+    font-size: 18px;
+    color: rgb(223, 223, 223);
+}
+footer h4{
+    font-family: 'Roboto', sans-serif; 
+    color: rgb(223, 223, 223);
+    
+}
+
+
+.opcion {
+    text-align: center; /* Centra el contenido dentro de cada opción */
+    background-color: white; 
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
+
+.opcion img {
+    width: 50px; 
+    height: auto; 
+    margin-bottom: 10px; 
+}
+ 
+.opcion p {
+    font-size: 14px; 
+    color: #333; 
+    margin: 0; 
+}
+
+
+a{
+    color: rgb(194, 200, 206);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

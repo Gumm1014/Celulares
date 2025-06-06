@@ -1,0 +1,31 @@
+nav{
+    
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAmwMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAABAgMABAf/xAAqEAACAgICAgIBAwQDAAAAAAAAAQIRITESQQNRImFxEzKBscHR4UJiof/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDxGOsmaMM6dAIkELfoWwCDs1swBlxxV32BhClYCGK8BJRfoAAoKXsbjkBKMPJUCgFQ0aTXLXYXGlYsgKJxzWvsk9mNYGrJuIYvJgGMGjNAKBh/IG7dAAKQNDp2Bkmynih7FyNCVNXtAWl4fjckyEpOTysnR+s5qmsEnx/kCeRkg4C9AJLIn0M72COQGtYtE3sdsDXqwEZkr6HcQxdL7AGPGv8AsTsZ5bfYtAWVGoFd9sFuOQBJC0USvJksgLxwBYKztomtgMnaFkwyVdCMBlIZPsXxha5K1hegCp0yjknEjqxr+KA3Iyi/wCm8mtgXahCKe2SbsWUraDywBpaFXsJgAAY1AUaBV7GyknJA27WgM1SFWf8AJRpVs1KlF59ALnViJXropOoR+yXjlxldWA0spCcQzfKVrCAngA+NZHcUnUYixxk6U40vbA5ZKgdFfIleNk6dAZPDMsg0gxTbwAcJiy+h5uMVS32TQBTwEWxk0AUug8X6KJJm4r7Aa/1I28V17EwngNg7ACpuuhrSi32K6X+hJP1YAnPk7ewJA2NF1gAqLnL+plHarsZco4TRoSdgB0inKTWIpIm8yY0XcqSav0wGhHlP/wA/IJqt0U48Fx3RKV3igEq0zOSgqjljXSaxkRKPvIAcaWexUPl/FtMXjQAezJMdRt5C0A0G2sDVIWEWlnX0Nza6ANNIm2UaQOICq2FwTWbKeOOwSaknFdAc9UxowuWBlHJbxq3nQE3dqPCvsVLi3WTq8icqqhP03VVYEqbzFWBOscfwWjBpu7QJxa3WNgJz5PdBh41OLdt10Rd06LeOM1fxw0As40s0vwTca6OiUcU9rsTyJU0reAJ/8cIPifdXXQIYT5AfxqkBTisu6voXSFTT2MuTwqwAVPH7RXbezcL/AHbDwQDJ9jbz2KmGwKQWLsn5cY1XofFCuHLMnQE/lTwX8dKCT2RlSwmMnLFoCqkk85HU0t6+iE3V0aPXF0wOxSiocobZyeV1jf8AcrFtxbTtkptXdMAQg5OXSXTLRnS3d+uiMKcni8HSl8FSqwJTfxa9ixjirysjSjWGI48XygnldgDyU19kJO2VnTX2SVW7AC3fRSFdISm/ofxKk12A3KlS/k3P8CqP7m3hmz0gEchvGrd9kcjQk0wOqMr/AIDJNrDEg0PLGQF4BUY9k7+V26M3WU2BvJNNv2aEoql17B2lWWbvKA6INt8U6iGTwycLWdIpiTqwBDEWndlL4xyKqSzsSbxlWgNKaUnvIsnmotuxG6xTCgEkrsXjnKyV43JVGhmlbsCSTWGB036Heyck7YBlJezY9snHedBv0AlZGisjJI2mA8cDylaJp4Gj8mAKa2G1qw+WXBUtkHIC1xXZuSkRjIZZYFk8+0PGd5ZFuosEZ9AWfkzlYFnO8LAIPksAlfYAbbayNG/TNGqH8a9gb5KmxHPLHnPrZKadrFAFsVsyTzXXQG8ADekbgxchtgYHZjAMiqXxsxgJ+TZJmMBo7KxWTGAPk0IujGAssSkkaRjABFOToxgF7QPJsxgEToR7CYAGMYD/2Q==);
+    background-position: center;
+    justify-content:space-between;
+    
+
+    
+}
+
+
+.menu a{
+    color: rgb(194, 200, 206);
+    margin: 20px;
+   
+}
+
+
+
+
+/* SOLO en móvil */
+@media (max-width: 767.98px) {
+    nav {
+        background-image: none !important;
+        
+       
+    }
+}
+

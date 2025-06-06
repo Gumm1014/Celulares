@@ -1,0 +1,45 @@
+.banner {
+    background-image: url('imagenes/banner.avif'); 
+    background-repeat: no-repeat;
+    background-size: cover; /* Asegura que la imagen cubra todo el espacio */
+    background-position: center; /* Centra la imagen */
+    height: 600px; 
+    
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    color: white;
+    
+    
+}
+
+.banner-contenido {
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin-right: auto; 
+    max-width: 50%; /* Limita el ancho del contenido */
+    margin-top: 300px; /* Ajusta este valor para bajar el contenido */
+
+}
+
+.banner-contenido h1 {
+    font-size: 36px; 
+    margin-bottom: 10px; 
+}
+
+.banner-contenido p {
+    font-size: 18px; /* Tamaño del subtítulo */
+    margin-bottom: 20px; /* Espaciado debajo del texto */
+}
+
+.btn-banner {
+    background-color: #ff6600; /* Color del botón */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    text-decoration: none; /* Elimina el subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño del texto */
+    transition: background-color 0.3s; /* Animación al pasar el mouse */
+}
+
+.btn-banner:hover {
+    background-color: #e65c00; /* Color al pasar el mouse */
+}
