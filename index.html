@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Telefónicos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="HTML">
+    <link rel="icon" href="imagenes/logo.png">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content row">
+
+            <div class="logo col-4 col-md-3 col-lg-2 order-1 order-md-1">
+                <h1><a><img src="imagenes/Logo_de_la_pagina_fondo_transparente.png" onclick="mostrar_home()"
+                            width="100"></a>κινητό</h1>
+            </div>
+
+
+            <div class="barra_de_busqueda col-12 col-md-3 col-lg-5 order-3 order-md-2">
+                <form action="buscar.html" method="get" class="w-100">
+                    <div class="input-group">
+                        <input type="search" class="form-control" placeholder="Buscar.." name="q" id="busquedaInput">
+                        <button type="submit" class="btn btn-warning">Buscar</button>
+                    </div>
+                </form>
+
+                <ul id="sugerencias"></ul>
+            </div>
+
+            <div class="overlay" id="overlay"></div>
+
+
+            <div class="iconos_del_header col-7 col-md-3 col-lg-2 order-2 order-md-3">
+
+                <img src="imagenes/oferta_especiales.png">
+
+                <a><img src="imagenes/icono_carrito.png" onclick="mostrar_carrito()"></a>
+
+
+                <img src="imagenes/icono_cuenta.png">
+
+            </div>
+
+
+
+        </div>
+    </header>
+
+    <nav class="menu navbar navbar-expand-md bg-mobile py-0">
+
+        <div class="container-fluid px-3">
+
+            <button class="navbar-toggler d-block d-md-none ms-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menu-movil" aria-controls="menu-movil" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <img src="imagenes/icono_hamburguesa_white.png" width="40">
+            </button>
+
+
+            <div class="collapse navbar-collapse d-md-none" id="menu-movil">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#" onclick="mostrar_lista_de_productos()">Celulares</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Accesorios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Ofertas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Soporte</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+    </nav>
+    <main>
+        <section id="home" class="d-block">
+            <div class="container-fluid ">
+
+                <div class="banner row">
+
+                    <div class="banner-contenido col-12 col-md-12 col-lg-12">
+                        <h1>Galaxy S24 Ultra</h1>
+                        <p>Ahorrá hasta 40% off con Plan Canje y Cuotas sin interés.</p>
+
+                        <button class="btn text-white" style="background-color: #ff6600;"  onclick="mostrar_producto()">Más información</button>
+                    
+                    </div>
+
+                </div>
+
+
+
+                <div class="productos row justify-content-center">
+
+
+                    <div class="producto col-6 col-md-2 col-lg-2">
+                        <img src="imagenes/galaxy_z_fold5.avif" alt="Galaxy Z Fold5">
+                        <p>Galaxy Z Fold5</p>
+                        <p>$3.999.999</p>
+                    </div>
+                    <div class="producto col-6 col-md-2 col-lg-2">
+                        <img src="imagenes/Galaxy S23 Ultra.webp" alt="Galaxy A15">
+                        <p>Galaxy S23 Ultra</p>
+                        <p>$1.815.000</p>
+                    </div>
+
+
+                    <div class="producto col-6 col-md-2 col-lg-2">
+                        <img src="imagenes/G85-cobalt-blue.png" alt="">
+                        <p>Moto G85 5G</p>
+                        <p>$699.999</p>
+                    </div>
+                    <div class="producto col-6 col-md-2 col-lg-2">
+                        <img src="imagenes/motorola_edge_50_ultra.png" alt="">
+                        <p>Motorola Edge 50 Ultra</p>
+                        <p>$1.599.999</p>
+                    </div>
+
+
+                    <div class="producto col-6 col-md-2 col-lg-2">
+                        <img src="imagenes/xiaomi_14t.jpg" alt="">
+                        <p>Xiaomi 14T</p>
+                        <p>$1.979.999</p>
+                    </div>
+                    <div class="producto col-6 col-md-2 col-lg-2">
+                        <img src="imagenes/redmi-note-13-pro-5g.jpg" alt="">
+                        <p>Redmi Note 13 Pro 5G</p>
+                        <p>$1.264.885</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="carrito" class="carrito-section d-none">
+            <div class="carrito-container row">
+                <div class="carrito-lista col-12  col-md-6 col-lg-6">
+                    <h2>Tu carrito</h2>
+                    <div class="table-responsive">
+                        <table class="carrito-tabla col-12  col-md-6 col-lg-6">
+
+                            <tr>
+                                <th>Producto</th>
+                                <th>Modelo</th>
+                                <th>Precio</th>
+                                <th>Cantidad</th>
+                                <th>Subtotal</th>
+                                <th>Acciones</th>
+                            </tr>
+
+
+                            <tr>
+                                <td><img src="./imagenes/galaxy_z_fold5.avif" alt="Galaxy Z Fold 5" width="70"></td>
+                                <td>Galaxy Z Fold 5</td>
+                                <td>$3,999,999</td>
+                                <td>
+                                    <input type="number" min="1" value="1" class="cantidad-input">
+                                </td>
+                                <td>$3,999,999</td>
+                                <td>
+                                    <button class="btn-accion eliminar">Eliminar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img src="./imagenes/xiaomi_14t.jpg" alt="Xiaomi 14 T" width="70"></td>
+                                <td>Xiaomi 14 T</td>
+                                <td>$1,979,999</td>
+                                <td>
+                                    <input type="number" min="1" value="1" class="cantidad-input">
+                                </td>
+                                <td>$1,979,999</td>
+                                <td>
+                                    <button class="btn-accion eliminar">Eliminar</button>
+                                </td>
+                            </tr>
+
+                        </table>
+
+                    </div>
+
+                </div>
+                <div class="carrito-resumen col-12 col-md-6 col-lg-6">
+                    <h3>Resumen de compra</h3>
+                    <div class="resumen-item">
+                        <span>Subtotal:</span>
+                        <span>$5,979,998</span>
+                    </div>
+                    <div class="resumen-item">
+                        <span>Descuento:</span>
+                        <span>$0.00</span>
+                    </div>
+                    <div class="resumen-item total">
+                        <span>Total:</span>
+                        <span><strong>$5,979,998</strong></span>
+                    </div>
+                    <button class="btn-comprar">Finalizar compra</button>
+                    <button class="btn-datos">Revisar datos</button>
+                </div>
+            </div>
+        </section>
+
+
+
+        <div id="producto" class="container-fluid row justify-content-center d-none">
+
+
+            <div class="product-gallery col-12 col-md-4 col-lg-4 order-1 order-md-1 order-lg-1">
+                <div class="thumbnails">
+                    <img src="./imagenes/thumbnail1.webp" alt="Vista previa 1">
+                    <img src="./imagenes/thumbnail2.webp" alt="Vista previa 2">
+                    <img src="./imagenes/thumbnail3.webp" alt="Vista previa 3">
+                    <img src="./imagenes/thumbnail4.webp" alt="Vista previa 4">
+                </div>
+                <div class="main-image">
+                    <img src="./imagenes/celular_principal.webp" alt="Samsung Galaxy S24 Ultra">
+                </div>
+            </div>
+
+
+            <div class="product-specs col-12 col-md-4 col-lg-4 order-3 order-md-2 order-lg-2">
+                <h2>Lo que tenés que saber de este producto</h2>
+                <ul>
+                    <li>Memoria RAM: 12 GB</li>
+                    <li>Dispositivo liberado para que elijas la compañía telefónica que prefieras.</li>
+                    <li>Compatible con redes 5G.</li>
+                    <li>Pantalla Dynamic AMOLED 2X de 6.8".</li>
+                    <li>Tiene 4 cámaras traseras de 200Mpx/50Mpx/10Mpx/12Mpx.</li>
+                    <li>Cámaras delanteras de 12Mpx.</li>
+                    <li>Batería de 5000mAh con carga inalámbrica.</li>
+                    <li>Memoria interna de 512GB.</li>
+                    <li>Resistente al agua.</li>
+                    <li>Con reconocimiento facial y sensor de huella dactilar.</li>
+                    <li>Resistente al polvo.</li>
+                    <li>Tarjeta eSIM incluida.</li>
+                </ul>
+            </div>
+
+            <div class="product-purchase-info col-12 col-md-4 col-lg-4 order-2 order-md-3 order-lg-3">
+                <h1>Samsung Galaxy S24 Ultra 256 GB Negro 12 GB RAM</h1>
+                <p class="price">$2.379.000$</p>
+                <p class="installments">Mismo precio en 12 cuotas de $198.250</p>
+
+                <div class="variant-option">
+                    <label>Memoria interna: 512 GB</label>
+                    <div class="options">
+                        <button class="option-button">128Gb</button>
+                        <button class="option-button selected">512Gb</button>
+                    </div>
+                </div>
+
+                <div class="variant-option">
+                    <label>Memoria RAM: 12 GB</label>
+                    <div class="options">
+                        <button class="option-button selected">12Gb</button>
+                        <button class="option-button">16Gb</button>
+                    </div>
+                </div>
+
+                <button class="buy-now-button">Comprar ahora</button>
+                <button class="add-to-cart-button">Agregar al carrito</button>
+
+                <p class="sales-count">+5mil ventas</p>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+        <section id="lista_de_productos" class="d-none">
+
+            <div class="productos row">
+
+                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center" onclick="mostrar_detalles_producto(id)">
+
+                    <img src="./imagenes/xiaomi_14t.jpg" alt="">
+                    <div>
+                        
+                        <p>Xiaomi 14T Pro Titan Black</p>
+                        <p>$1,979,999</p>
+
+                    </div>
+
+                </div>
+
+                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center " onclick="mostrar_detalles_producto(id)">
+
+                    <img src="./imagenes/G85-cobalt-blue.png" alt="">
+                    <div>
+                        
+                        <p>Moto G85 5g </p>
+                        <p>$1,979,999</p>
+
+                    </div>
+
+                </div>
+
+                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center" onclick="mostrar_detalles_producto(id)">
+
+                    <img src="./imagenes/Galaxy Z Flip3 5G.webp" alt="">
+                    <div>
+                       
+                        <p>Galaxy Z Flip3 5G </p>
+                        <p>$660.000</p>
+
+                    </div>
+
+                </div>
+
+                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center" onclick="mostrar_detalles_producto(id)">
+
+                    <img src="./imagenes/Galaxy S23 Ultra.webp" alt="">
+                    <div>
+                       
+                        <p>Galaxy S23 Ultra</p>
+                        <p>$1.815.000</p>
+
+                    </div>
+
+                </div>
+
+                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
+
+                    <img src="./imagenes/Samsung Galaxy S24 Ultra 5G.webp" alt="">
+                    <div>
+                       
+                        <p>Galaxy S24 Ultra 5G</p>
+                        <p>$2.399.999</p>
+
+                    </div>
+
+                </div>
+
+                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
+
+                    <img src="./imagenes/Samsung Galaxy S25 Ultra 5G.webp" alt="">
+                    <div>
+                       
+                        <p>Samsung Galaxy S25 Ultra</p>
+                        <p>$2.599.999</p>
+
+                    </div>
+
+                </div>
+
+                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
+
+                    <img src="./imagenes/Moto G84.webp" alt="">
+                    <div>
+                        
+                        <p>Moto G84 5G</p>
+                        <p>$519.999</p>
+
+                    </div>
+
+                </div>
+
+                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
+
+                    <img src="./imagenes/Samsung Galaxy A55.webp" alt="">
+                    <div>
+                       
+                        <p>Galaxy A55</p>
+                        <p>$984.999</p>
+
+                    </div>
+
+                </div>
+
+                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
+
+                    <img src="./imagenes/Moto G75 Xt2437-2 5g.webp" alt="">
+                    <div>
+                        
+                        <p>Moto G75 Xt2437-2 5g</p>
+                        <p>$759.999</p>
+
+                    </div>
+
+                </div>
+
+              
+
+                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
+
+                    <img src="./imagenes/Samsung Galaxy S25.webp" alt="">
+                    <div>
+                       
+                        <p>Galaxy S25</p>
+                        <p>$1.749.999</p>
+
+                    </div>
+
+                </div>
+
+                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
+
+                    <img src="./imagenes/Xiaomi Redmi Note 14 4g.webp" alt="">
+                    <div>
+                        
+                        <p>Xiaomi Redmi Note 14 4g</p>
+                        <p>$450.000</p>
+
+                    </div>
+
+                </div>
+
+                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
+
+                    <img src="./imagenes/Xiaomi Poco X7 Pro 5g Iron Man Edition.webp" alt="">
+                    <div>
+                        
+                        <p>Xiaomi Poco X7 Pro 5g <br>
+                            Iron Man Edition</p>
+                        <p>$1.183.295</p>
+
+                    </div>
+
+                </div>
+
+                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
+
+                    <img src="./imagenes/Xiaomi 13T.webp" alt="">
+                    <div>
+                        
+                        <p>Xiaomi 13T</p>
+                        <p>$1.949.990</p>
+
+                    </div>
+
+                </div>
+
+                <div class="producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
+
+                    <img src="./imagenes/Apple iPhone 15.webp" alt="">
+                    <div>
+                        
+                        <p>Apple iPhone 15</p>
+                        <p>$1.489.990</p>
+                    </div>
+                </div>
+
+                <div class="producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
+
+                    <img src="./imagenes/Apple iPhone 16 Pro Max.webp" alt="">
+                    <div>
+                        
+                        <p>Apple iPhone 16 Pro Max</p>
+                        <p>$4.888.778</p>
+                    </div>
+                </div>
+
+                <div class="producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
+
+                    <img src="./imagenes/Apple iPhone 13 Pro Max.webp" alt="">
+                    <div>
+                        
+                        <p>Apple iPhone 13 Pro Max </p>
+                        <p>$1.999.999</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+        <aside>
+
+
+
+        </aside>
+
+    </main>
+
+    <footer>
+
+
+        <div class="footer-politicas text-center ">
+            <h4>Políticas</h4>
+            <ul class="text-start mx-auto"
+                style="list-style-position: outside; padding-left: 1.2rem; width: max-content;">
+                <li><a>Términos y condiciones</a></li>
+                <li><a>Política de privacidad</a></li>
+                <li><a>Política de devoluciones</a></li>
+                <li><a>Política de retiro</a></li>
+            </ul>
+        </div>
+
+
+
+        <div class="footer_ayuda row justify-content-center">
+
+            <div class="text-center">
+                <h4>¿Podemos ayudarte?</h4>
+            </div>
+
+
+            <div class="opcion col-4 col-md-2 col-lg-2">
+
+                <img src="imagenes/icono_globo_texto_cuadrado.png" alt="">
+                <p>Soporte Online</p>
+            </div>
+
+            <div class="opcion col-4 col-md-2 col-lg-2">
+
+                <img src="imagenes/icono_globo_texto_circulo.png" alt="">
+                <p>Consultas</p>
+            </div>
+
+            <div class="opcion col-4 col-md-2 col-lg-2">
+
+                <img src="imagenes/icono_telefono.png" alt="">
+                <p>Soporte Telefónico</p>
+            </div>
+
+            <div class="opcion col-4 col-md-2 col-lg-2">
+
+                <img src="imagenes/icono_correo.png" alt="">
+                <p>Soporte por Email</p>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <p>&copy; 2025 kivntó. Todos los derechos reservados.</p>
+        </div>
+
+
+    </footer>
+
+</body>
+
+
+<script>
+    let home = document.getElementById("home");
+    let carrito = document.getElementById("carrito");
+    let producto = document.getElementById("producto");
+    let lista_productos = document.getElementById("lista_de_productos");
+
+   
+
+    function mostrar_carrito() {
+        home.classList.add("d-none");
+        carrito.classList.remove("d-none");
+        producto.classList.add("d-none");
+        lista_productos.classList.add("d-none");
+
+        
+    }
+
+
+    function mostrar_home() {
+        home.classList.remove("d-none");
+        carrito.classList.add("d-none");
+        producto.classList.add("d-none");
+        lista_productos.classList.add("d-none");
+
+        
+    }
+
+    function mostrar_producto() {
+        home.classList.add("d-none");
+        carrito.classList.add("d-none");
+        producto.classList.remove("d-none");
+        lista_productos.classList.add("d-none");
+
+        
+
+    }
+
+
+    function mostrar_lista_de_productos() {
+        home.classList.add("d-none");
+        carrito.classList.add("d-none");
+        producto.classList.add("d-none");
+        lista_productos.classList.remove("d-none");
+
+        
+    }
+
+   
+
+
+
+
+
+</script>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+<script src="java_script.js"></script>
+
+
+</html>
