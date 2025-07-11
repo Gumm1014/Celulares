@@ -148,40 +148,20 @@
                     <div class="table-responsive">
                         <table class="carrito-tabla col-12  col-md-6 col-lg-6">
 
-                            <tr>
-                                <th>Producto</th>
-                                <th>Modelo</th>
-                                <th>Precio</th>
-                                <th>Cantidad</th>
-                                <th>Subtotal</th>
-                                <th>Acciones</th>
-                            </tr>
-
-
-                            <tr>
-                                <td><img src="./imagenes/galaxy_z_fold5.avif" alt="Galaxy Z Fold 5" width="70"></td>
-                                <td>Galaxy Z Fold 5</td>
-                                <td>$3,999,999</td>
-                                <td>
-                                    <input type="number" min="1" value="1" class="cantidad-input">
-                                </td>
-                                <td>$3,999,999</td>
-                                <td>
-                                    <button class="btn-accion eliminar">Eliminar</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><img src="./imagenes/xiaomi_14t.jpg" alt="Xiaomi 14 T" width="70"></td>
-                                <td>Xiaomi 14 T</td>
-                                <td>$1,979,999</td>
-                                <td>
-                                    <input type="number" min="1" value="1" class="cantidad-input">
-                                </td>
-                                <td>$1,979,999</td>
-                                <td>
-                                    <button class="btn-accion eliminar">Eliminar</button>
-                                </td>
-                            </tr>
+                            <thead>
+                                <tr>
+                                    <th>Producto</th>
+                                    <th>Modelo</th>
+                                    <th>Precio</th>
+                                    <th>Cantidad</th>
+                                    <th>Subtotal</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            
+                            <tbody id="tbody" class="Cuerpo_prod_carrito">
+                                 
+                            </tbody> 
 
                         </table>
 
@@ -275,216 +255,15 @@
         </div>
 
 
-
-
-
-
-
-
         <section id="lista_de_productos" class="d-none">
-
-            <div class="productos row">
-
-                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
-
-                    <img src="./imagenes/xiaomi_14t.jpg" alt="">
-                    <div>
-                        
-                        <p>Xiaomi 14T Pro Titan Black</p>
-                        <p>$1,979,999</p>
-
-                    </div>
-
-                </div>
-
-                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center ">
-
-                    <img src="./imagenes/G85-cobalt-blue.png" alt="">
-                    <div>
-                        
-                        <p>Moto G85 5g </p>
-                        <p>$1,979,999</p>
-
-                    </div>
-
-                </div>
-
-                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
-
-                    <img src="./imagenes/Galaxy Z Flip3 5G.webp" alt="">
-                    <div>
-                       
-                        <p>Galaxy Z Flip3 5G </p>
-                        <p>$660.000</p>
-
-                    </div>
-
-                </div>
-
-                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
-
-                    <img src="./imagenes/Galaxy S23 Ultra.webp" alt="">
-                    <div>
-                       
-                        <p>Galaxy S23 Ultra</p>
-                        <p>$1.815.000</p>
-
-                    </div>
-
-                </div>
-
-                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
-
-                    <img src="./imagenes/Samsung Galaxy S24 Ultra 5G.webp" alt="">
-                    <div>
-                       
-                        <p>Galaxy S24 Ultra 5G</p>
-                        <p>$2.399.999</p>
-
-                    </div>
-
-                </div>
-
-                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
-
-                    <img src="./imagenes/Samsung Galaxy S25 Ultra 5G.webp" alt="">
-                    <div>
-                       
-                        <p>Samsung Galaxy S25 Ultra</p>
-                        <p>$2.599.999</p>
-
-                    </div>
-
-                </div>
-
-                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
-
-                    <img src="./imagenes/Moto G84.webp" alt="">
-                    <div>
-                        
-                        <p>Moto G84 5G</p>
-                        <p>$519.999</p>
-
-                    </div>
-
-                </div>
-
-                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
-
-                    <img src="./imagenes/Samsung Galaxy A55.webp" alt="">
-                    <div>
-                       
-                        <p>Galaxy A55</p>
-                        <p>$984.999</p>
-
-                    </div>
-
-                </div>
-
-                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
-
-                    <img src="./imagenes/Moto G75 Xt2437-2 5g.webp" alt="">
-                    <div>
-                        
-                        <p>Moto G75 Xt2437-2 5g</p>
-                        <p>$759.999</p>
-
-                    </div>
-
-                </div>
-
-              
-
-                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
-
-                    <img src="./imagenes/Samsung Galaxy S25.webp" alt="">
-                    <div>
-                       
-                        <p>Galaxy S25</p>
-                        <p>$1.749.999</p>
-
-                    </div>
-
-                </div>
-
-                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
-
-                    <img src="./imagenes/Xiaomi Redmi Note 14 4g.webp" alt="">
-                    <div>
-                        
-                        <p>Xiaomi Redmi Note 14 4g</p>
-                        <p>$450.000</p>
-
-                    </div>
-
-                </div>
-
-                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
-
-                    <img src="./imagenes/Xiaomi Poco X7 Pro 5g Iron Man Edition.webp" alt="">
-                    <div>
-                        
-                        <p>Xiaomi Poco X7 Pro 5g <br>
-                            Iron Man Edition</p>
-                        <p>$1.183.295</p>
-
-                    </div>
-
-                </div>
-
-                <div class=" producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
-
-                    <img src="./imagenes/Xiaomi 13T.webp" alt="">
-                    <div>
-                        
-                        <p>Xiaomi 13T</p>
-                        <p>$1.949.990</p>
-
-                    </div>
-
-                </div>
-
-                <div class="producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
-
-                    <img src="./imagenes/Apple iPhone 15.webp" alt="">
-                    <div>
-                        
-                        <p>Apple iPhone 15</p>
-                        <p>$1.489.990</p>
-                    </div>
-                </div>
-
-                <div class="producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
-
-                    <img src="./imagenes/Apple iPhone 16 Pro Max.webp" alt="">
-                    <div>
-                        
-                        <p>Apple iPhone 16 Pro Max</p>
-                        <p>$4.888.778</p>
-                    </div>
-                </div>
-
-                <div class="producto col-12 col-md-12 col-lg-12 d-flex align-items-center">
-
-                    <img src="./imagenes/Apple iPhone 13 Pro Max.webp" alt="">
-                    <div>
-                        
-                        <p>Apple iPhone 13 Pro Max </p>
-                        <p>$1.999.999</p>
-                    </div>
-                </div>
-
+            <div id="lista" class="productos row">
+       
+                
             </div>
         </section>
 
-
-
-
-
+        
         <aside>
-
-
-
         </aside>
 
     </main>
