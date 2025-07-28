@@ -426,6 +426,7 @@ a{
     max-width: 350px;
     margin-top: 20px;
     height: fit-content;
+
 }
 
 .carrito-resumen h3 {
@@ -435,22 +436,27 @@ a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.resumen-item {
-    display: flex;
-    justify-content: space-between;
 
-    margin-bottom: 10px;
-    font-size: 1em;
+.color{
+    color: #444;
+    font-weight: bold;
+}
+.colorr{
+    color: #444;
+    font-weight: bold;
+}
+.textC{
+    color: #444;
+}
+.TextC{
     color: #444;
 }
 
-.resumen-item.total {
-    font-weight: bold;
-    font-size: 1.1em;
-    color: #1a237e;
-    margin-top: 12px;
+input[type=number]::-webkit-inner-spin-button,     /*elimina las flechitas de cantidad/*/    
+input[type=number]::-webkit-outer-spin-button {    
+    -webkit-appearance: none;
+    margin: 0;
 }
-
 .btn-comprar, .btn-datos {
     width: 100%;
     padding: 12px 0;

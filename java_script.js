@@ -45,7 +45,7 @@ let Productos = [
         Descripcion: "Xiaomi 14T Pro Titan Black 12gb Ram 512gb ram",
         stock: 50,
         imagen: "./imagenes/xiaomi_14t.jpg",
-        imagen1:"imagenes/imagenes_celulares/vista1-xiaomi.webp" , imagen2:"imagenes/imagenes_celulares/vista2-xiaomi.webp" , imagen3:"imagenes/imagenes_celulares/vista3-xiaomi.webp" , imagen4:"imagenes/imagenes_celulares/viata4-xiaomi.webp" , imagen_principal:"imagenes/imagenes_celulares/Vista-principal-xiaomi.webp" , nombre_producto:"Xiaomi 14T Pro Titan Black 12gb Ram 512gb ram" , precio:"$1,979,999" , mismo_precio:"Mismo precio en 12 cuotas de $198.250" , memoria_interna:"Memoria interna: 512 GB" , op_m_i:"128Gb" , op2_m_i:"512Gb" , memoria_ram:"Memoria RAM: 12 GB" , op_m_r:"12Gb" , op2_m_r:"16Gb" , ventas:"+5mil ventas",
+        imagen1:"imagenes/imagenes_celulares/vista1-xiaomi.webp" , imagen2:"imagenes/imagenes_celulares/vista2-xiaomi.webp" , imagen3:"imagenes/imagenes_celulares/vista3-xiaomi.webp" , imagen4:"imagenes/imagenes_celulares/viata4-xiaomi.webp" , imagen_principal:"imagenes/imagenes_celulares/Vista-principal-xiaomi.webp" , nombre_producto:"Xiaomi 14T Pro Titan Black 12gb Ram 512gb ram" , precioT:"$1,979,999" , mismo_precio:"Mismo precio en 12 cuotas de $198.250" , memoria_interna:"Memoria interna: 512 GB" , op_m_i:"128Gb" , op2_m_i:"512Gb" , memoria_ram:"Memoria RAM: 12 GB" , op_m_r:"12Gb" , op2_m_r:"16Gb" , ventas:"+5mil ventas",
 
         marca: "Xiaomi",
     },
@@ -57,7 +57,7 @@ let Productos = [
         Descripcion: "Moto G85 5g Dual Sim 256 Gb Rom Violeta 12 Gb Ram",
         stock: 50,
         imagen: "./imagenes/G85-cobalt-blue.png",
-        imagen1:"imagenes/imagenes_celulares/vista1-Moto G85 5g Dual Sim.webp" , imagen2:"imagenes/imagenes_celulares/vista2-Moto G85 5g Dual Sim.webp" , imagen3:"imagenes/imagenes_celulares/vista3-Moto G85 5g Dual Sim.webp" , imagen4:"imagenes/imagenes_celulares/vista4-Moto G85 5g Dual Sim.webp" , imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Moto G85 5g Dual Sim.webp" , nombre_producto:"Moto G85 5g Dual Sim 256 Gb Rom Violeta 12 Gb Ram" , precio:"$1,979,999" , mismo_precio:"Mismo precio en 12 cuotas de  $66.666,58" , memoria_interna:"Memoria interna: 256 GB" , op_m_i:"128Gb" , op2_m_i:"256Gb" , memoria_ram:"Memoria RAM: 12 GB" , op_m_r:"12Gb" , op2_m_r:"16Gb" , ventas:"+5mil ventas",
+        imagen1:"imagenes/imagenes_celulares/vista1-Moto G85 5g Dual Sim.webp" , imagen2:"imagenes/imagenes_celulares/vista2-Moto G85 5g Dual Sim.webp" , imagen3:"imagenes/imagenes_celulares/vista3-Moto G85 5g Dual Sim.webp" , imagen4:"imagenes/imagenes_celulares/vista4-Moto G85 5g Dual Sim.webp" , imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Moto G85 5g Dual Sim.webp" , nombre_producto:"Moto G85 5g Dual Sim 256 Gb Rom Violeta 12 Gb Ram" , precioT:"$1,979,999" , mismo_precio:"Mismo precio en 12 cuotas de  $66.666,58" , memoria_interna:"Memoria interna: 256 GB" , op_m_i:"128Gb" , op2_m_i:"256Gb" , memoria_ram:"Memoria RAM: 12 GB" , op_m_r:"12Gb" , op2_m_r:"16Gb" , ventas:"+5mil ventas",
 
         marca: "Motorola",
     },
@@ -69,7 +69,7 @@ let Productos = [
         Descripcion: "Galaxy Z Flip3 5G 128 GB phantom black 8 GB RAM",
         stock: 50,
         imagen: "./imagenes/Galaxy Z Flip3 5G.webp",
-        imagen1:"imagenes/imagenes_celulares/vista1-Samsung Galaxy Z Flip3 5G 128.webp",imagen2:"imagenes/imagenes_celulares/vista2-Samsung Galaxy Z Flip3 5G 128.webp",imagen3:"imagenes/imagenes_celulares/vista3-Samsung Galaxy Z Flip3 5G 128.webp",imagen4:"imagenes/imagenes_celulares/vista4-Samsung Galaxy Z Flip3 5G 128.webp",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Samsung Galaxy Z Flip3 5G 128.webp",nombre_producto:"Galaxy Z Flip3 5G 128 GB phantom black 8 GB RAM",precio:"$660.000",mismo_precio:"Mismo precio en 12 cuotas de $45.833,25",memoria_interna:"128 GB",op_m_i:"64GB",op2_m_i:"128GB",memoria_ram:"8 GB",op_m_r:"8GB",op2_m_r:"12GB",ventas:"+5mil ventas",
+        imagen1:"imagenes/imagenes_celulares/vista1-Samsung Galaxy Z Flip3 5G 128.webp",imagen2:"imagenes/imagenes_celulares/vista2-Samsung Galaxy Z Flip3 5G 128.webp",imagen3:"imagenes/imagenes_celulares/vista3-Samsung Galaxy Z Flip3 5G 128.webp",imagen4:"imagenes/imagenes_celulares/vista4-Samsung Galaxy Z Flip3 5G 128.webp",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Samsung Galaxy Z Flip3 5G 128.webp",nombre_producto:"Galaxy Z Flip3 5G 128 GB phantom black 8 GB RAM",precioT:"$660.000",mismo_precio:"Mismo precio en 12 cuotas de $45.833,25",memoria_interna:"128 GB",op_m_i:"64GB",op2_m_i:"128GB",memoria_ram:"8 GB",op_m_r:"8GB",op2_m_r:"12GB",ventas:"+5mil ventas",
 
         marca: "Samsung",
     },
@@ -81,7 +81,7 @@ let Productos = [
         Descripcion: "Galaxy S23 Ultra Dual SIM 256GB Negro 8GB RAM256 Gb. 8Gb Ram",
         stock: 50,
         imagen: "./imagenes/Galaxy S23 Ultra.webp",
-        imagen1:"imagenes/imagenes_celulares/vista1-Galaxy S23 Ultra Dual SIM 256GB Negro 8GB RAM.webp",imagen2:"imagenes/imagenes_celulares/vista2-Galaxy S23 Ultra Dual SIM 256GB Negro 8GB RAM.webp",imagen3:"imagenes/imagenes_celulares/vista3-Galaxy S23 Ultra Dual SIM 256GB Negro 8GB RAM.webp",imagen4:"imagenes/imagenes_celulares/vista4-Galaxy S23 Ultra Dual SIM 256GB Negro 8GB RAM.webp",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Galaxy S23 Ultra Dual SIM 256GB Negro 8GB RAM.webp",nombre_producto:"Galaxy S23 Ultra Dual SIM 256GB Negro 8GB RAM",precio:"$1,815,000",mismo_precio:"Mismo precio en 9 cuotas de $88.481,22",memoria_interna:"256 GB",op_m_i:"512GB",op2_m_i:"256GB",memoria_ram:"8 GB",op_m_r:"8GB",op2_m_r:"16GB",ventas:"+10mil ventas",
+        imagen1:"imagenes/imagenes_celulares/vista1-Galaxy S23 Ultra Dual SIM 256GB Negro 8GB RAM.webp",imagen2:"imagenes/imagenes_celulares/vista2-Galaxy S23 Ultra Dual SIM 256GB Negro 8GB RAM.webp",imagen3:"imagenes/imagenes_celulares/vista3-Galaxy S23 Ultra Dual SIM 256GB Negro 8GB RAM.webp",imagen4:"imagenes/imagenes_celulares/vista4-Galaxy S23 Ultra Dual SIM 256GB Negro 8GB RAM.webp",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Galaxy S23 Ultra Dual SIM 256GB Negro 8GB RAM.webp",nombre_producto:"Galaxy S23 Ultra Dual SIM 256GB Negro 8GB RAM",precioT:"$1,815,000",mismo_precio:"Mismo precio en 9 cuotas de $88.481,22",memoria_interna:"256 GB",op_m_i:"512GB",op2_m_i:"256GB",memoria_ram:"8 GB",op_m_r:"8GB",op2_m_r:"16GB",ventas:"+10mil ventas",
 
         marca: "Samsung",
     },
@@ -93,7 +93,7 @@ let Productos = [
         Descripcion: "Samsung Galaxy S24 Ultra 256 GB Negro 12 GB RAM",
         stock: 50,
         imagen: "./imagenes/Samsung Galaxy S24 Ultra 5G.webp",
-        imagen1:"imagenes/thumbnail1.webp",imagen2:"imagenes/thumbnail2.webp",imagen3:"imagenes/thumbnail3.webp",imagen4:"imagenes/thumbnail4.webp",imagen_principal:"imagenes/celular_principal.webp",nombre_producto:"Samsung Galaxy S24 Ultra 256 GB Negro 12 GB RAM",precio:"$2.379.000$",mismo_precio:"Mismo precio en 12 cuotas de $198.250",memoria_interna:"512 GB",op_m_i:"128GB",op2_m_i:"512GB",memoria_ram:"12 GB",op_m_r:"12GB",op2_m_r:"16GB",ventas:"+5mil ventas",
+        imagen1:"imagenes/thumbnail1.webp",imagen2:"imagenes/thumbnail2.webp",imagen3:"imagenes/thumbnail3.webp",imagen4:"imagenes/thumbnail4.webp",imagen_principal:"imagenes/celular_principal.webp",nombre_producto:"Samsung Galaxy S24 Ultra 256 GB Negro 12 GB RAM",precioT:"$2.379.000$",mismo_precio:"Mismo precio en 12 cuotas de $198.250",memoria_interna:"512 GB",op_m_i:"128GB",op2_m_i:"512GB",memoria_ram:"12 GB",op_m_r:"12GB",op2_m_r:"16GB",ventas:"+5mil ventas",
         
 
         marca: "Samsung",
@@ -106,7 +106,7 @@ let Productos = [
         Descripcion: "Samsung Galaxy S25 Ultra 5G Dual SIM 512 GB azul acero 12 GB RAM",
         stock: 50,
         imagen: "./imagenes/Samsung Galaxy S25 Ultra 5G.webp",
-        imagen1:"imagenes/imagenes_celulares/vista1-Samsung Galaxy S25 Ultra 5G Dual SIM.webp",imagen2:"imagenes/imagenes_celulares/vista2-Samsung Galaxy S25 Ultra 5G Dual SIM.webp",imagen3:"imagenes/imagenes_celulares/vista3-Samsung Galaxy S25 Ultra 5G Dual SIM.webp",imagen4:"imagenes/imagenes_celulares/vista4-Samsung Galaxy S25 Ultra 5G Dual SIM.webp",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Samsung Galaxy S25 Ultra 5G Dual SIM.webp",nombre_producto:"Samsung Galaxy S25 Ultra 5G Dual SIM 512 GB azul acero 12 GB RAM",precio:"$2,599,999",mismo_precio:"Mismo precio en 12 cuotas de $203.333,33",memoria_interna:"512 GB",op_m_i:"128GB",op2_m_i:"512GB",memoria_ram:"12 GB",op_m_r:"12GB",op2_m_r:"16GB",ventas:"+5mil ventas",
+        imagen1:"imagenes/imagenes_celulares/vista1-Samsung Galaxy S25 Ultra 5G Dual SIM.webp",imagen2:"imagenes/imagenes_celulares/vista2-Samsung Galaxy S25 Ultra 5G Dual SIM.webp",imagen3:"imagenes/imagenes_celulares/vista3-Samsung Galaxy S25 Ultra 5G Dual SIM.webp",imagen4:"imagenes/imagenes_celulares/vista4-Samsung Galaxy S25 Ultra 5G Dual SIM.webp",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Samsung Galaxy S25 Ultra 5G Dual SIM.webp",nombre_producto:"Samsung Galaxy S25 Ultra 5G Dual SIM 512 GB azul acero 12 GB RAM",precioT:"$2,599,999",mismo_precio:"Mismo precio en 12 cuotas de $203.333,33",memoria_interna:"512 GB",op_m_i:"128GB",op2_m_i:"512GB",memoria_ram:"12 GB",op_m_r:"12GB",op2_m_r:"16GB",ventas:"+5mil ventas",
 
         marca: "Samsung",
     },
@@ -118,7 +118,7 @@ let Productos = [
         Descripcion: "Moto G84 5G 256 GB Negro espacial 8 GB RAM",
         stock: 50,
         imagen: "./imagenes/Moto G84.webp",
-        imagen1:"imagenes/imagenes_celulares/vista1-Motorola Moto G84 5G 256 GB Negro espacial 8 GB RAM.webp",imagen2:"imagenes/imagenes_celulares/vista2-Motorola Moto G84 5G 256 GB Negro espacial 8 GB RAM.webp",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Motorola Moto G84 5G 256 GB Negro espacial 8 GB RAM.webp",nombre_producto:"Moto G84 5G 256 GB Negro espacial 8 GB RAM",precio:"$519,999",mismo_precio:"Mismo precio en 12 cuotas de $43.333,25",memoria_interna:"256 GB",op_m_i:"128Gb",op2_m_i:"256Gb",memoria_ram:"8 GB",op_m_r:"8Gb",op2_m_r:"16Gb",ventas:"+5mil ventas",
+        imagen1:"imagenes/imagenes_celulares/vista1-Motorola Moto G84 5G 256 GB Negro espacial 8 GB RAM.webp",imagen2:"imagenes/imagenes_celulares/vista2-Motorola Moto G84 5G 256 GB Negro espacial 8 GB RAM.webp",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Motorola Moto G84 5G 256 GB Negro espacial 8 GB RAM.webp",nombre_producto:"Moto G84 5G 256 GB Negro espacial 8 GB RAM",precioT:"$519,999",mismo_precio:"Mismo precio en 12 cuotas de $43.333,25",memoria_interna:"256 GB",op_m_i:"128Gb",op2_m_i:"256Gb",memoria_ram:"8 GB",op_m_r:"8Gb",op2_m_r:"16Gb",ventas:"+5mil ventas",
         
 
         marca: "Motorola",
@@ -136,7 +136,7 @@ let Productos = [
         imagen3:"imagenes/imagenes_celulares/vista3-Samsung Galaxy A55 256GB Awesome navy 8GB RAM.webp",
         imagen4:"",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Samsung Galaxy A55 256GB Awesome navy 8GB RAM.webp",
         nombre_producto:"Samsung Galaxy A55 256GB Awesome navy 8GB RAM",
-        precio:"$519,999",mismo_precio:"Mismo precio en 12 cuotas de $77.332,17",
+        precioT:"$519,999",mismo_precio:"Mismo precio en 12 cuotas de $77.332,17",
         memoria_interna:"256 GB",
         op_m_i:"128GB",
         op2_m_i:"256GB",
@@ -160,7 +160,7 @@ let Productos = [
         imagen4:"imagenes/imagenes_celulares/vista4-Motorola Moto G75 Xt2437-2 5g.webp",
         imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Motorola Moto G75 Xt2437-2 5g.webp",
         nombre_producto:"Moto G75 Xt2437-2 5g Ram 8gb Interna 128 Gb",
-        precio:"$759,999",
+        precioT:"$759,999",
         mismo_precio:"Mismo precio en 12 cuotas de $52.499,92",
         memoria_interna:"128 GB",
         op_m_i:"512GB",
@@ -179,7 +179,7 @@ let Productos = [
         Descripcion: "Galaxy S25 512gb",
         stock: 50,
         imagen: "./imagenes/Samsung Galaxy S25.webp",
-        imagen1:"imagenes/imagenes_celulares/vista1-Samsung Galaxy S25 512gb Dual Sim Silver Shadow.webp",imagen2:"imagenes/imagenes_celulares/vista1-Samsung Galaxy S25 512gb Dual Sim Silver Shadow.webp",imagen3:"imagenes/imagenes_celulares/vista3-Samsung Galaxy S25 512gb Dual Sim Silver Shadow.webp",imagen4:"imagenes/imagenes_celulares/vista4-Samsung Galaxy S25 512gb Dual Sim Silver Shadow.webp",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Samsung Galaxy S25 512gb Dual Sim Silver Shadow.webp",nombre_producto:"Galaxy S25 512gb",precio:"$1,749,999",mismo_precio:"Mismo precio en 12 cuotas de $163.464,02",memoria_interna:"512 GB",op_m_i:"128GB",op2_m_i:"512GB",memoria_ram:"12 GB",op_m_r:"12GB",op2_m_r:"16GB",ventas:"+5mil ventas",
+        imagen1:"imagenes/imagenes_celulares/vista1-Samsung Galaxy S25 512gb Dual Sim Silver Shadow.webp",imagen2:"imagenes/imagenes_celulares/vista1-Samsung Galaxy S25 512gb Dual Sim Silver Shadow.webp",imagen3:"imagenes/imagenes_celulares/vista3-Samsung Galaxy S25 512gb Dual Sim Silver Shadow.webp",imagen4:"imagenes/imagenes_celulares/vista4-Samsung Galaxy S25 512gb Dual Sim Silver Shadow.webp",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Samsung Galaxy S25 512gb Dual Sim Silver Shadow.webp",nombre_producto:"Galaxy S25 512gb",precioT:"$1,749,999",mismo_precio:"Mismo precio en 12 cuotas de $163.464,02",memoria_interna:"512 GB",op_m_i:"128GB",op2_m_i:"512GB",memoria_ram:"12 GB",op_m_r:"12GB",op2_m_r:"16GB",ventas:"+5mil ventas",
         
 
         marca: "Samsung",
@@ -192,7 +192,7 @@ let Productos = [
         Descripcion: "Xiaomi Redmi Note 14 4g 256gb 8gb Ram",
         stock: 50,
         imagen: "./imagenes/Xiaomi Redmi Note 14 4g.webp",
-        imagen1:"imagenes/imagenes_celulares/vista1-Xiaomi Redmi Note 14 4g.webp",imagen2:"imagenes/imagenes_celulares/vista2-Xiaomi Redmi Note 14 4g.webp",imagen3:"imagenes/imagenes_celulares/vista3-Xiaomi Redmi Note 14 4g.webp",imagen4:"imagenes/imagenes_celulares/vista4-Xiaomi Redmi Note 14 4g.webp",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Xiaomi Redmi Note 14 4g.webp",nombre_producto:"Xiaomi Redmi Note 14 4g 256gb 8gb Ram",precio:"$450,000",mismo_precio:"Mismo precio en 6 cuotas de $60.435,62",memoria_interna:"128 GB",op_m_i:"256GB",op2_m_i:"128GB",memoria_ram:"6 GB",op_m_r:"6GB",op2_m_r:"8GB",ventas:"+5mil ventas",
+        imagen1:"imagenes/imagenes_celulares/vista1-Xiaomi Redmi Note 14 4g.webp",imagen2:"imagenes/imagenes_celulares/vista2-Xiaomi Redmi Note 14 4g.webp",imagen3:"imagenes/imagenes_celulares/vista3-Xiaomi Redmi Note 14 4g.webp",imagen4:"imagenes/imagenes_celulares/vista4-Xiaomi Redmi Note 14 4g.webp",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Xiaomi Redmi Note 14 4g.webp",nombre_producto:"Xiaomi Redmi Note 14 4g 256gb 8gb Ram",precioT:"$450,000",mismo_precio:"Mismo precio en 6 cuotas de $60.435,62",memoria_interna:"128 GB",op_m_i:"256GB",op2_m_i:"128GB",memoria_ram:"6 GB",op_m_r:"6GB",op2_m_r:"8GB",ventas:"+5mil ventas",
         
 
         marca: "Xiaomi",
@@ -205,7 +205,7 @@ let Productos = [
         Descripcion: "Xiaomi Poco X7 Pro 5g Iron Man Edition 12gb Ram Rojo 512gb Rom",
         stock: 50,
         imagen: "./imagenes/Xiaomi Poco X7 Pro 5g Iron Man Edition.webp",
-        imagen1:"imagenes/imagenes_celulares/vista1-xiaomi-poco-x7-pro-iron-man.webp",imagen2:"imagenes/imagenes_celulares/vista2-xiaomi-poco-x7-pro-iron-man.webp",imagen3:"imagenes/imagenes_celulares/vista3-xiaomi-poco-x7-pro-iron-man.webp",imagen4:"imagenes/imagenes_celulares/vista4-xiaomi-poco-x7-pro-iron-man.webp",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-xiaomi-poco-x7-pro-iron-man.webp",nombre_producto:"Xiaomi Poco X7 Pro 5g Iron Man Edition 12gb Ram Rojo 512gb Rom",precio:"$1,979,999",mismo_precio:"Mismo precio en 6 cuotas de $190.593,83",memoria_interna:"512 GB",op_m_i:"128GB",op2_m_i:"512GB",memoria_ram:"12 GB",op_m_r:"12GB",op2_m_r:"16GB",ventas:"+100 ventas",
+        imagen1:"imagenes/imagenes_celulares/vista1-xiaomi-poco-x7-pro-iron-man.webp",imagen2:"imagenes/imagenes_celulares/vista2-xiaomi-poco-x7-pro-iron-man.webp",imagen3:"imagenes/imagenes_celulares/vista3-xiaomi-poco-x7-pro-iron-man.webp",imagen4:"imagenes/imagenes_celulares/vista4-xiaomi-poco-x7-pro-iron-man.webp",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-xiaomi-poco-x7-pro-iron-man.webp",nombre_producto:"Xiaomi Poco X7 Pro 5g Iron Man Edition 12gb Ram Rojo 512gb Rom",precioT:"$1,979,999",mismo_precio:"Mismo precio en 6 cuotas de $190.593,83",memoria_interna:"512 GB",op_m_i:"128GB",op2_m_i:"512GB",memoria_ram:"12 GB",op_m_r:"12GB",op2_m_r:"16GB",ventas:"+100 ventas",
 
 
         marca: "Xiaomi",
@@ -218,7 +218,7 @@ let Productos = [
         Descripcion: "Xiaomi 13T Dual SIM 256 GB negro 8 GB RAM",
         stock: 50,
         imagen: "./imagenes/Xiaomi 13T.webp",
-        imagen1:"imagenes/imagenes_celulares/vista1-Xiaomi 13T Dual SIM 256 GB negro 8 GB RAM.webp",imagen2:"imagenes/imagenes_celulares/vista2-Xiaomi 13T Dual SIM 256 GB negro 8 GB RAM.webp",imagen3:"imagenes/imagenes_celulares/vista3-Xiaomi 13T Dual SIM 256 GB negro 8 GB RAM.webp",imagen4:"imagenes/imagenes_celulares/vista4-Xiaomi 13T Dual SIM 256 GB negro 8 GB RAM.webp",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Xiaomi 13T Dual SIM 256 GB negro 8 GB RAM.webp",nombre_producto:"Xiaomi 13T Dual SIM 256 GB negro 8 GB RAM",precio:"$1.949.990",mismo_precio:"Mismo precio en 12 cuotas de $154.166,67",memoria_interna:"256 GB",op_m_i:"128GB",op2_m_i:"256GB",memoria_ram:"8 GB",op_m_r:"8GB",op2_m_r:"12GB",ventas:"+5mil ventas",
+        imagen1:"imagenes/imagenes_celulares/vista1-Xiaomi 13T Dual SIM 256 GB negro 8 GB RAM.webp",imagen2:"imagenes/imagenes_celulares/vista2-Xiaomi 13T Dual SIM 256 GB negro 8 GB RAM.webp",imagen3:"imagenes/imagenes_celulares/vista3-Xiaomi 13T Dual SIM 256 GB negro 8 GB RAM.webp",imagen4:"imagenes/imagenes_celulares/vista4-Xiaomi 13T Dual SIM 256 GB negro 8 GB RAM.webp",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Xiaomi 13T Dual SIM 256 GB negro 8 GB RAM.webp",nombre_producto:"Xiaomi 13T Dual SIM 256 GB negro 8 GB RAM",precioT:"$1.949.990",mismo_precio:"Mismo precio en 12 cuotas de $154.166,67",memoria_interna:"256 GB",op_m_i:"128GB",op2_m_i:"256GB",memoria_ram:"8 GB",op_m_r:"8GB",op2_m_r:"12GB",ventas:"+5mil ventas",
         
 
         marca: "Xiaomi",
@@ -232,7 +232,7 @@ let Productos = [
         stock: 50,
         imagen: "./imagenes/Apple iPhone 15.webp",
         
-        imagen1:"imagenes/imagenes_celulares/vista1-Apple iPhone 15 128 GB Negro.webp",imagen2:"imagenes/imagenes_celulares/vista2-Apple iPhone 15 128 GB Negro.webp",imagen3:"imagenes/imagenes_celulares/vista3-Apple iPhone 15 128 GB Negro.webp",imagen4:"imagenes/imagenes_celulares/vista4-Apple iPhone 15 128 GB Negro.webp",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Apple iPhone 15 128 GB Negro.webp",nombre_producto:"Apple iPhone 15 128 GB Negro",precio:"$1.489.990",mismo_precio:"Mismo precio en 12 cuotas de $120.085,75",memoria_interna:"128 GB",op_m_i:"256GB",op2_m_i:"128GB",memoria_ram:"6 GB",op_m_r:"6GB",op2_m_r:"8GB",ventas:"+5mil ventas",
+        imagen1:"imagenes/imagenes_celulares/vista1-Apple iPhone 15 128 GB Negro.webp",imagen2:"imagenes/imagenes_celulares/vista2-Apple iPhone 15 128 GB Negro.webp",imagen3:"imagenes/imagenes_celulares/vista3-Apple iPhone 15 128 GB Negro.webp",imagen4:"imagenes/imagenes_celulares/vista4-Apple iPhone 15 128 GB Negro.webp",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Apple iPhone 15 128 GB Negro.webp",nombre_producto:"Apple iPhone 15 128 GB Negro",precioT:"$1.489.990",mismo_precio:"Mismo precio en 12 cuotas de $120.085,75",memoria_interna:"128 GB",op_m_i:"256GB",op2_m_i:"128GB",memoria_ram:"6 GB",op_m_r:"6GB",op2_m_r:"8GB",ventas:"+5mil ventas",
 
         marca:"Apple",
     },
@@ -244,7 +244,7 @@ let Productos = [
         Descripcion: "Apple iPhone 16 Pro Max (256 GB)",
         stock: 50,
         imagen: "./imagenes/Apple iPhone 16 Pro Max.webp",
-        imagen1:"imagenes/imagenes_celulares/vista1-Apple iPhone 16 Pro Max (256 GB).webp",imagen2:"imagenes/imagenes_celulares/vista2-Apple iPhone 16 Pro Max (256 GB).webp",imagen3:"imagenes/imagenes_celulares/vista3-Apple iPhone 16 Pro Max (256 GB).webp",imagen4:"imagenes/imagenes_celulares/vista4-Apple iPhone 16 Pro Max (256 GB).webp",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Apple iPhone 16 Pro Max (256 GB).webp",nombre_producto:"Apple iPhone 16 Pro Max (256 GB)",precio:"$4.888.778",mismo_precio:"Mismo precio en 12 cuotas de $192.916,67",memoria_interna:"128 GB",op_m_i:"256Gb",op2_m_i:"128Gb",memoria_ram:"8 GB",op_m_r:"8Gb",op2_m_r:"16Gb",ventas:"+5mil ventas",
+        imagen1:"imagenes/imagenes_celulares/vista1-Apple iPhone 16 Pro Max (256 GB).webp",imagen2:"imagenes/imagenes_celulares/vista2-Apple iPhone 16 Pro Max (256 GB).webp",imagen3:"imagenes/imagenes_celulares/vista3-Apple iPhone 16 Pro Max (256 GB).webp",imagen4:"imagenes/imagenes_celulares/vista4-Apple iPhone 16 Pro Max (256 GB).webp",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Apple iPhone 16 Pro Max (256 GB).webp",nombre_producto:"Apple iPhone 16 Pro Max (256 GB)",precioT:"$4.888.778",mismo_precio:"Mismo precio en 12 cuotas de $192.916,67",memoria_interna:"128 GB",op_m_i:"256Gb",op2_m_i:"128Gb",memoria_ram:"8 GB",op_m_r:"8Gb",op2_m_r:"16Gb",ventas:"+5mil ventas",
         
         
 
@@ -258,7 +258,7 @@ let Productos = [
         Descripcion: "Apple iPhone 13 Pro Max",
         stock: 50,
         imagen: "./imagenes/Apple iPhone 13 Pro Max.webp",
-        imagen1:"imagenes/imagenes_celulares/vista1-Apple iPhone 13 Pro Max (256 GB).webp",imagen2:"imagenes/imagenes_celulares/vista2-Apple iPhone 13 Pro Max (256 GB).webp",imagen3:"imagenes/imagenes_celulares/vista3-Apple iPhone 13 Pro Max (256 GB).webp",imagen4:"imagenes/imagenes_celulares/vista4-Apple iPhone 13 Pro Max (256 GB).webp",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Apple iPhone 13 Pro Max (256 GB).webp",nombre_producto:"Apple iPhone 13 Pro Max",precio:"$1.999.999",mismo_precio:"Mismo precio en 6 cuotas de $399.571,88",memoria_interna:"256 GB",op_m_i:"128Gb",op2_m_i:"256Gb",memoria_ram:"8 GB",op_m_r:"8Gb",op2_m_r:"16Gb",ventas:"+5mil ventas",
+        imagen1:"imagenes/imagenes_celulares/vista1-Apple iPhone 13 Pro Max (256 GB).webp",imagen2:"imagenes/imagenes_celulares/vista2-Apple iPhone 13 Pro Max (256 GB).webp",imagen3:"imagenes/imagenes_celulares/vista3-Apple iPhone 13 Pro Max (256 GB).webp",imagen4:"imagenes/imagenes_celulares/vista4-Apple iPhone 13 Pro Max (256 GB).webp",imagen_principal:"imagenes/imagenes_celulares/Vista-principal-Apple iPhone 13 Pro Max (256 GB).webp",nombre_producto:"Apple iPhone 13 Pro Max",precioT:"$1.999.999",mismo_precio:"Mismo precio en 6 cuotas de $399.571,88",memoria_interna:"256 GB",op_m_i:"128Gb",op2_m_i:"256Gb",memoria_ram:"8 GB",op_m_r:"8Gb",op2_m_r:"16Gb",ventas:"+5mil ventas",
         
 
         marca:"Apple",
@@ -395,40 +395,36 @@ function mostrar(id) {
 let carritoo=[]
 
 function agregarAlCarrito(id) {
-    const producto = Productos.find(p => p.id === parseInt(id)); //aca buscamos en el array de productos un producto que cumpla una condicion 
-                                                              // que su id  sea estrictamente igual  al id que recibimos (eliminen el mensaje despues)
+    const producto = Productos.find(p => p.id === parseInt(id));
     if (producto) {
         const existente = carritoo.find(p => p.id === producto.id);
         if (existente) {
             existente.cantidad += 1;
+
+            const filas = document.querySelectorAll("#tbody tr");
+            filas.forEach(fila => {
+                if (fila.children[1].textContent === producto.nombre) {
+                    const inputCantidad = fila.querySelector(".cantidad-input");
+                    const tdSubtotal = fila.querySelector(".sub_total");
+                    inputCantidad.value = existente.cantidad;
+                    tdSubtotal.textContent = `$${(producto.precio * existente.cantidad).toLocaleString('es-AR')}`;
+
+                }
+            });
+
         } else {
-            carritoo.push({ ...producto, cantidad: 1 }); //nose como lo puedo explicar los ... es como que copia el contenido, esta incompleto aun,  
-            generar_producto(producto.id);    
+            carritoo.push({ ...producto, cantidad: 1 });
+            generar_producto(producto.id);
         }
+
         alert(`${producto.nombre} fue agregado al carrito.`);
+        sumar_productos();
     }
 }
 
 
 
-function actualizarCarrito() {
-    const tabla = document.querySelector('.carrito-tabla');
-    
-    tabla.innerHTML = `
-        <tr>
-            <th>Producto</th>
-            <th>Modelo</th>
-            <th>Precio</th>
-            <th>Subtotal</th>
-            <th>Acciones</th>
-        </tr>`; 
-        let totalito=0
-        carritoo.forEach(producto=>{
-            const subtotal= producto.precio*producto.cantidad;
-            totalito+=subtotal;
-        })   
 
-}     
 
 
 function generar_producto(id) {
@@ -441,8 +437,38 @@ function generar_producto(id) {
         <td>${producto.nombre}</td>
         <td>${producto.precio}</td>
         <td><input type="number" min="1" value="1" class="cantidad-input"></td>
-        <td class="sub_total">${producto.precio}</td>
+        <td class="sub_total">$${producto.precio.toLocaleString('es-AR')}</td>
         <td><button onclick="eliminar_del_carrito(this.id)" id="${producto.id}" class="btn-accion eliminar">Eliminar</button></td>
     `;
     tbody.appendChild(tr);
+
+    
+}
+function eliminar_del_carrito(id) {
+ 
+    carritoo = carritoo.filter(p => p.id !== parseInt(id));
+
+   
+    const filas = document.querySelectorAll("#tbody tr");
+    filas.forEach(fila => {
+        const btn = fila.querySelector("button.eliminar");
+        if (btn && btn.id === id) {
+            fila.remove();
+        }
+    });
+
+    sumar_productos();
+}
+function sumar_productos(){
+
+    let total= 0
+    let subtotal=0
+
+    carritoo.forEach(producto=>{
+        total+= producto.precio * producto.cantidad
+        subtotal+= producto.precio * producto.cantidad
+    })
+    document.getElementById("spann").textContent=`$${subtotal.toLocaleString('es-AR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}` //el tolocalestring es para poner los separadore de los numeros 
+    document.getElementById("span").textContent=`$${total.toLocaleString('es-AR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
+
 }
